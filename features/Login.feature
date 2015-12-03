@@ -11,3 +11,9 @@ Feature: Android Login Feature using poo
     Given I am about to login
     When I enter valid credentials
     Then I should not see error message
+
+
+  @scenario3
+  Scenario: Valid login scenario 3
+    Given I am about to login
+    
