@@ -1,0 +1,6 @@
+# config/cucumber.yml
+##YAML Template
+---
+android: PLATFORM=android -r features/support -r features/step_definitions -r features/Android
+
+ios: PLATFORM=ios APP_BUNDLE_PATH=.app  -r features/support -r features/step_definitions -r features/iOS
